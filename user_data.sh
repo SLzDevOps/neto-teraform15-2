@@ -1,14 +1,23 @@
 #!/bin/bash
+set -e
 
-# Устанавливаем LAMP стек
-apt-get update
-apt-get install -y apache2 mysql-server php php-mysql php-gd php-curl
+echo "=== Starting user_data script at $(date) ==="
+
+# Обновляем пакеты
+apt-get update -y
+
+# Устанавливаем LAMP стек с автоматическим подтверждением
+DEBIAN_FRONTEND=noninteractive apt-get install -y apache2 mysql-server php php-mysql php-gd php-curl
+
+# Запускаем Apache
+systemctl start apache2
+systemctl enable apache2
 
 # Создаем директорию для сайта
 mkdir -p /var/www/html
 
 # Создаем веб-страницу
-cat > /var/www/html/index.html << EOF
+cat > /var/www/html/index.html << 'EOL'
 <!DOCTYPE html>
 <html>
 <head>
@@ -47,10 +56,12 @@ cat > /var/www/html/index.html << EOF
     </div>
 </body>
 </html>
-EOF
+EOL
 
 # Настраиваем права
 chown -R www-data:www-data /var/www/html
 
 # Перезапускаем Apache
 systemctl restart apache2
+
+echo "=== user_data script finished at $(date) ==="
