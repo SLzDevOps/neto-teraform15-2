@@ -9,10 +9,10 @@
 https://github.com/SLzDevOps/neto-teraform15-2/tree/main
 
 
-![alt text](https://github.com/SLzDevOps/neto-teraform15-1/blob/main/Screenshot/Screenshot_1070.png).
-![alt text](https://github.com/SLzDevOps/neto-teraform15-1/blob/main/Screenshot/Screenshot_1071.png).
-![alt text](https://github.com/SLzDevOps/neto-teraform15-1/blob/main/Screenshot/Screenshot_1072.png).
-![alt text](https://github.com/SLzDevOps/neto-teraform15-1/blob/main/Screenshot/Screenshot_1073.png).
-![alt text](https://github.com/SLzDevOps/neto-teraform15-1/blob/main/Screenshot/Screenshot_1074.png).
-![alt text](https://github.com/SLzDevOps/neto-teraform15-1/blob/main/Screenshot/Screenshot_1075.png).
-![alt text](https://github.com/SLzDevOps/neto-teraform15-1/blob/main/Screenshot/Screenshot_1076.png).
+![alt text](https://github.com/SLzDevOps/neto-teraform15-2/blob/main/Screenshots/Screenshot_1077.png).
+![alt text](https://github.com/SLzDevOps/neto-teraform15-2/blob/main/Screenshots/Screenshot_1078.png).
+![alt text](https://github.com/SLzDevOps/neto-teraform15-2/blob/main/Screenshots/Screenshot_1080.png).
+![alt text](https://github.com/SLzDevOps/neto-teraform15-2/blob/main/Screenshots/Screenshot_1079.png).
+![alt text](https://github.com/SLzDevOps/neto-teraform15-2/blob/main/Screenshots/Screenshot_1081.png).
+![alt text](https://github.com/SLzDevOps/neto-teraform15-2/blob/main/Screenshots/Screenshot_1082.png).
+
