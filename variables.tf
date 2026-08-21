@@ -43,3 +43,15 @@ variable "ssh_public_key" {
   type        = string
   default     = "~/.ssh/id_rsa.pub"
 }
+
+variable "bucket_name" {
+  description = "Name of the Object Storage bucket"
+  type        = string
+  default     = "avfomichev-images"
+}
+
+variable "image_path" {
+  description = "Path to local image file"
+  type        = string
+  default     = "~/Pictures/example.jpg"
+}
